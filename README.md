@@ -1,14 +1,20 @@
 # Amiral Battı Oyunu
 
 Windows Forms (C#) ile geliştirilmiş, **15x15 ızgara** üzerinde oynanan tek kişilik bir
-bulmaca/Amiral Battı oyunu. Oyuncu ızgaradaki kareleri tıklayarak gizli "yıldız
-gruplarını" (gemileri) bulmaya çalışır; süre tutulur ve en iyi süre kaydedilir.
+Amiral Battı oyunu. Oyuna başlandığında 10 gemi ızgaraya görünmez şekilde yerleştirilir;
+oyuncu kareleri tıklayarak atış yapar — gemi yoksa çarpı işareti, gemi varsa gemi görseli
+açığa çıkar. Tüm gemiler batırıldığında oyun kazanılır; hamle sayısı ve süre takip edilir.
+
+## 📸 Ekran Görüntüleri
+
+![Oynanış talimatları ve oyun ekranı](screenshots/oynanis-ve-oyun.png)
 
 ## 🎮 Özellikler
 
 - 15x15 tıklanabilir oyun tahtası (dinamik olarak oluşturulan `Button` ızgarası)
-- Zamanlayıcı (dakika:saniye) ve **en iyi süre** takibi
-- Farklı uzunlukta yıldız grupları (gemiler) — yatay/dikey yerleşim
+- 10 geminin rastgele, görünmez şekilde yerleştirilmesi
+- Hamle sayacı ve zamanlayıcı (dakika:saniye), **en iyi süre** takibi
+- Farklı uzunlukta gemiler — yatay/dikey yerleşim
 - Oyun sonunda tebrik/üzgün görseliyle geri bildirim
 
 ## 🛠️ Teknoloji
